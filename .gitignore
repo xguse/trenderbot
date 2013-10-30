@@ -4,6 +4,16 @@
 *.so
 
 # Packages
+# Emacs rope configuration
+.ropeproject
+.project
+.pydevproject
+.settings
+
+# Python
+*.py[co]
+
+## Packages
 *.egg
 *.egg-info
 dist
@@ -34,3 +44,19 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+deb_dist
+develop-eggs
+.installed.cfg
+
+## Installer logs
+pip-log.txt
+
+## Unit test / coverage reports
+.coverage
+.tox
+
+## Translations
+*.mo
+
+## paver generated files
+/paver-minilib.zip
